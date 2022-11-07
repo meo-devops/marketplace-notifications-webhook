@@ -1,6 +1,7 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "FUNCTIONS_WORKER_RUNTIME": "node"
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "SIGNATURE_GUID":"c4424ed6-8d3d-4b55-8fc5-6f7ec8a333b9"
   }
 }

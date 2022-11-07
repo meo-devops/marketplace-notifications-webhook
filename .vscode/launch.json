@@ -2,29 +2,16 @@
   "version": "0.2.0",
   "configurations": [
       {
-          "name": "Launch Edge",
-          "request": "launch",
-          "type": "pwa-msedge",
-          "url": "http://localhost:4280",
-          "webRoot": "${workspaceFolder}",
-          "presentation": {
-              "hidden": true,
-              "group": "",
-              "order": 1
-          }
-      },
-      {
           "name": "Attach to Node Functions",
           "type": "node",
           "request": "attach",
           "port": 9229,
-          "preLaunchTask": "func: host start",
           "presentation": {
               "hidden": true,
               "group": "",
               "order": 1
           },
-          "env": { "SIGNATURE_GUID":"123" }
+          "env": { "SIGNATURE_GUID":"c4424ed6-8d3d-4b55-8fc5-6f7ec8a333b9" }
       }
   ],
   "compounds": [
@@ -34,7 +21,7 @@
               "Attach to Node Functions"
           ],
           "stopAll": true,
-          "preLaunchTask": "swa start",
+          "preLaunchTask": "swa start"
       }
   ]
 }

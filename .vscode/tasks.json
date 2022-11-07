@@ -31,7 +31,7 @@
     {
 			"type": "shell",
 			"label": "swa start",
-			"command": "swa start http://localhost:3000/ --api http://localhost:7071 --run \"npm start\"",
+			"command": "swa start -w .",
 			"isBackground": true,
 			"problemMatcher": [
 				{
@@ -46,7 +46,7 @@
 					"background": {
 						"activeOnStart": true,
 						"beginsPattern": ".",
-						"endsPattern": "Waiting for .+7071 to be ready",
+						"endsPattern": ".",
 					}
 				}
 			],

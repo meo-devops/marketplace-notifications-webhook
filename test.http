@@ -1,0 +1,17 @@
+POST http://localhost:7071/api/notification-webhook?sig= HTTP/1.1
+Content-Type: application/json
+
+{
+    "eventType": "PUT",
+    "provisioningState": "Succeeded",
+    "plan": {
+        "name": "akskv",
+        "product": "meo-aks-kv-preview",
+        "publisher": "marketplace-test",
+        "version": "1.0.0"
+    },
+    "applicationId": "/subscriptions/2b45b90a-837f-4492-b4b4-6bdb81c3e895/resourceGroups/managed-apps-marketplace-deployment/providers/Microsoft.Solutions/applications/myapp1",
+    "eventTime": "2022-03-30T09:53:22.7884597Z"
+}
+
+###
